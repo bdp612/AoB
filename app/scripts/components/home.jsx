@@ -8,7 +8,7 @@ var Home = React.createClass({
 
     return (
       <div className="hero-unit">
-        <h1>'Allo, 'Allo!</h1>
+        <h1>'Chaaaaaa!</h1>
         <p>You now have</p>
         <ul>
             <li>ReactJS Reflux Boilerplate</li>
