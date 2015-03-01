@@ -1,6 +1,7 @@
 var React = require('react');
 
 var Deck = require('./deck')
+var DeckComp = require('./DeckComponent')
 
 var Home = React.createClass({
 
@@ -16,6 +17,8 @@ var Home = React.createClass({
             <li>ReactJS Reflux Boilerplate</li>
         </ul>
         <Deck />
+        <DeckComp />
+
       </div>
     );
   }

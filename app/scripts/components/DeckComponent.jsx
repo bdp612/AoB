@@ -1,4 +1,6 @@
 var React = require('react');
+var actions = require("../actions/DataActionCreators")
+var DeckStore = require('../stores/DecStore')
 
 var DeckComponent = React.createClass({
   getInitialState: function() {
@@ -15,21 +17,28 @@ var DeckComponent = React.createClass({
   //   }
   // },
 
-  // _onChange: function() {
-  //   this.setState(DataStore.getAll());
-  // },
+  _onChange: function() {
+    this.setState(DeckStore.getAll());
+  },
 
-  // componentDidMount: function() {
-  //   DataStore.addChangeListener(this._onChange);
-  // },
+  componentDidMount: function() {
+    DeckStore.addChangeListener(this._onChange);
+  },
 
-  // componentWillUnmount: function() {
-  //   DataStore.removeChangeListener(this._onChange);
-  // },
+  componentWillUnmount: function() {
+    DeckStore.removeChangeListener(this._onChange);
+  },
+
+  handleAddNewClick: function() {
+    actions.drawCard({
+      id: 1
+    })
+  },
 
   render: function() {
     return (
       <p>Hello, world!</p>
+      <Button onClick={this.handleAddNewClick}>Add New</Button>
     );
   }
 });

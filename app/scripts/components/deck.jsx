@@ -2,6 +2,11 @@ var React = require('react');
 
 var Deck = React.createClass({
 
+  
+  getInitialState: function() {
+    return {};
+  },
+
   render: function() {
 
     return (
