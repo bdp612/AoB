@@ -1,0 +1,41 @@
+{
+  "name": "AoB",
+  "version": "0.0.1",
+  "description": "Testing platform for a boardgame idea",
+  "author": "Braedan Purcell",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "react": "~0.12.2",
+    "react-router": "~0.12.0",
+    "reflux": "~0.2.5"
+  },
+  "devDependencies": {
+    "browserify": "~8.1.3",
+    "del": "~1.1.1",
+    "gulp": "~3.8.11",
+    "gulp-autoprefixer": "~2.1.0",
+    "gulp-filter": "~2.0.1",
+    "gulp-htmlmin": "~1.0.0",
+    "gulp-imagemin": "~2.1.0",
+    "gulp-load-plugins": "~0.8.0",
+    "gulp-minify-css": "~0.4.5",
+    "gulp-plumber": "~0.6.6",
+    "gulp-rev-all": "~0.7.6",
+    "gulp-rev-replace": "~0.3.3",
+    "gulp-size": "~1.2.0",
+    "gulp-uglify": "~1.1.0",
+    "gulp-useref": "~1.1.1",
+    "gulp-webserver": "~0.9.0",
+    "reactify": "~1.0.0",
+    "run-sequence": "~1.0.2",
+    "vinyl-source-stream": "~1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "./node_modules/gulp/bin/gulp.js serve",
+    "build": "./node_modules/gulp/bin/gulp.js build"
+  }
+}

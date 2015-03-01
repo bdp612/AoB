@@ -1,0 +1,20 @@
+{
+  "name": "AoB",
+  "version": "0.0.1",
+  "authors": [
+    "Braedan Purcell"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
