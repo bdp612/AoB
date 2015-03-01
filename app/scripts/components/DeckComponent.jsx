@@ -38,7 +38,7 @@ var DeckComponent = React.createClass({
   render: function() {
     return (
       <p>Hello, world!</p>
-      <Button onClick={this.handleAddNewClick}>Add New</Button>
+      //<Button onClick={this.handleAddNewClick}>Add New</Button>
     );
   }
 });
