@@ -16,7 +16,7 @@ module.exports = {
 
   completeTask: function(task) {
     console.warn('completeTask action not yet implemented...');
-  }
+  },
 
   drawCard: function(deck) {
     console.log("drawing a card from deck " + deck.id)

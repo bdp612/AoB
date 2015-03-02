@@ -1,6 +1,6 @@
 var React = require('react');
 var actions = require("../actions/DataActionCreators")
-var DeckStore = require('../stores/DecStore')
+var DeckStore = require('../stores/DeckStore')
 
 var DeckComponent = React.createClass({
   getInitialState: function() {
