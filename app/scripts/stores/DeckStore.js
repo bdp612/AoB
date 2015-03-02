@@ -6,9 +6,10 @@ var assign = require('object-assign');
 // data storage
 var _data = [];
 
-// add private functions to modify data
-function addItem(title, completed=false) {
-  _data.push({title, completed});
+
+function addItem(title, completed) {
+  completed = typeof completed !== 'undefined' ? completed : false;
+  _data.push({title: completed});
 }
 
 // Facebook style store creation.
