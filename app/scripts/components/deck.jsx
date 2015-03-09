@@ -2,7 +2,7 @@ var React = require('react');
 
 var Deck = React.createClass({
 
-  
+
   getInitialState: function() {
     return {};
   },
@@ -11,7 +11,6 @@ var Deck = React.createClass({
 
     return (
       <div className="deck-div">
-        <h1>This is a deck!</h1>
       </div>
     );
   }
